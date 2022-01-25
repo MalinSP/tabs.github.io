@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tabs</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="section-center about-center">
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="image" class="img" />
+        </article>
+
+        <article class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">History</button>
+            <button class="tab-btn" data-id="visions">Visions</button>
+            <button class="tab-btn" data-id="goals">Goals</button>
+          </div>
+          <div class="about-content">
+            <div class="content active" id="history">
+              <h4>History</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempora, magnam ipsam earum autem natus laboriosam ut doloribus
+                illum optio sequi possimus neque qui iste voluptates obcaecati
+                culpa dignissimos ipsa exercitationem?
+              </p>
+            </div>
+            <div class="content" id="visions">
+              <h4>Visions</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempora, magnam ipsam earum autem natus laboriosam ut doloribus
+                illum optio sequi possimus neque qui iste voluptates obcaecati
+                culpa dignissimos ipsa exercitationem?
+              </p>
+            </div>
+            <div class="content" id="goals">
+              <h4>Goals</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempora, magnam ipsam earum autem natus laboriosam ut doloribus
+                illum optio sequi possimus neque qui iste voluptates obcaecati
+                culpa dignissimos ipsa exercitationem?
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
