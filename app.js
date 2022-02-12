@@ -14,7 +14,7 @@ about.addEventListener("click", function (e) {
         article.classList.remove("active");
       });
       const element = document.getElementById(id);
-      console.log(element);
+      // console.log(element);
       element.classList.add("active");
     });
   }
